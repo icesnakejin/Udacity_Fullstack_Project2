@@ -8,20 +8,20 @@ tournament_test.py -- test cases for database tournament
 
 # How to Use
 
-1.Go to your vagrant folder, then turn on vagrant VM:
+Go to your vagrant folder, then turn on vagrant VM:
 Yankuns-MacBook-Pro:vagrant yankunjin$ vagrant up
 
-2.Connect to your VM using SSH:
+Connect to your VM using SSH:
 Yankuns-MacBook-Pro:vagrant yankunjin$ vagrant ssh
 
-3. go to tournament folder: 
+go to tournament folder: 
 vagrant@vagrant-ubuntu-trusty-32:/vagrant$ cd /vagrant/tournament/
 
-4. Using psql to run the sql schema
+Using psql to run the sql schema
 vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ psql
 vagrant=> \i tournament.sql
 
-5. Run tournament_test.py;
+Run tournament_test.py;
 tournament=> \q
 vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
 
