@@ -7,7 +7,7 @@ tournament.sql -- sql schema for databse tournament
 tournament_test.py -- test cases for database tournament
 
 # How to Use
-
+```bash
 Go to your vagrant folder, then turn on vagrant VM:
 Yankuns-MacBook-Pro:vagrant yankunjin$ vagrant up
 
@@ -24,8 +24,11 @@ vagrant=> \i tournament.sql
 Run tournament_test.py;
 tournament=> \q
 vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py
+```
 
 Result:
+```bash
+vagrant@vagrant-ubuntu-trusty-32:/vagrant/tournament$ python tournament_test.py 
 1. Old matches can be deleted.
 2. Player records can be deleted.
 3. After deleting, countPlayers() returns zero.
@@ -35,6 +38,7 @@ Result:
 7. After a match, players have updated standings.
 8. After one match, players with one win are paired.
 Success!  All tests pass!
+```
 
 
 
