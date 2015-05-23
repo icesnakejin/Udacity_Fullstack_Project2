@@ -2,9 +2,11 @@
 Udacity_Fullstack_Project2 : Tournament Result
 
 # Files
+```bash
 tournament.py -- python api for database tournament
-tournament.sql -- sql schema for databse tournament
-tournament_test.py -- test cases for database tournament
+tournament.sql -- aql schema for databse tournament
+tournament_test.py -- testcases for database tournament
+```
 
 # How to Use
 ```bash
